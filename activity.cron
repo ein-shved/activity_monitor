@@ -1,0 +1,6 @@
+# /etc/cron.d/activity: crontab entries for the activity monitor package
+
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+*/5 *    * * * root lua /usr/share/activity_check.lua
