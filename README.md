@@ -4,8 +4,8 @@
 
 This simple lua script monitors a services activity of my home server and
 switches it off. My current services are: transmission-daemon, minidlna and ssh.
-It checks for current active downloading torrents, and active inbound
-connections on several ports.
+It checks for current active downloading torrents, active inbound
+connections on several ports and sends icmp echos to other hosts in network.
 
 ## What is it for
 
